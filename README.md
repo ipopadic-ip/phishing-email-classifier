@@ -41,11 +41,11 @@ This project builds a **phishing email classifier** trained on a custom dataset,
     - Returns: "phishing"
 
 ## 👤 Author
-- **Ilija Popadić**
--**Software Engineer** | **Aspiring AI Security Engineer**
 
--**LinkedIn** [#](https://www.linkedin.com/in/ilija-popadic-27a4a72b3/)
+**Ilija Popadić**  
+**Software Engineer | Aspiring AI Security Engineer**
 
--**YouTube Demo** [#](https://youtu.be/3lV3m6ewS8U?si=gZqBkL8hJMcDcbU9)
+[LinkedIn](https://www.linkedin.com/in/ilija-popadic-27a4a72b3/)  
+[YouTube Demo](https://youtu.be/3lV3m6ewS8U?si=gZqBkL8hJMcDcbU9)
 
 ---

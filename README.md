@@ -31,14 +31,14 @@ This project builds a **phishing email classifier** trained on a custom dataset,
 
 - You can test endpoints using Postman or cURL:
 - POST http://localhost:5000/predict
-- ✅ Predict endpoint example
-- Body (JSON):
-- { "text": "Hey boss, I've attached the final version of the report." }
-- Returns: legit
+  - ✅ Predict endpoint example
+    - Body (JSON):
+    - { "text": "Hey boss, I've attached the final version of the report." }
+    - Returns: legit
 
-- ✅ Phishing example
-- { "text": "You have been selected for a free prize! Click here to claim now." }
-- Returns: "phishing"
+  - ✅ Phishing example
+    - { "text": "You have been selected for a free prize! Click here to claim now." }
+    - Returns: "phishing"
 
 ## 👤 Author
 Ilija Popadić

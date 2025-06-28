@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #007cf0, #00dfd8);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  padding: 30px;
+}
+
+.email-checker {
+  background-color: #ffffffdd;
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.email-checker h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.email-checker form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-checker textarea {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 150px;
+  font-family: inherit;
+  margin-bottom: 15px;
+}
+
+.email-checker button {
+  padding: 14px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.email-checker button:hover {
+  background-color: #0056b3;
+}
+
+.retrain-btn {
+  margin-top: 20px;
+  background-color: #28a745;
+}
+
+.retrain-btn:hover {
+  background-color: #1e7e34;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+}
+
+.result.phishing {
+  color: red;
+}
+
+.result.legit {
+  color: green;
+}
+
+.train-status {
+  margin-top: 12px;
+  font-size: 14px;
+  text-align: center;
+  color: #444;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.profile-header h3 {
+  margin: 8px 0;
+  font-weight: 400;
+}
+
+.profile-header p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+    

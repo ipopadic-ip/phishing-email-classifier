@@ -26,3 +26,28 @@ This project builds a **phishing email classifier** trained on a custom dataset,
 - **Frontend:** React, Axios
 
 ---
+
+## 🔬 **Testing the API**
+
+You can test endpoints using Postman or cURL:
+POST http://localhost:5000/predict
+✅ Predict endpoint example
+Body (JSON):
+{ "text": "Hey boss, I've attached the final version of the report." }
+Returns: legit
+
+✅ Phishing example
+{ "text": "You have been selected for a free prize! Click here to claim now." }
+Returns: "phishing"
+
+## 👤 Author
+Ilija Popadić
+Software Engineer | Aspiring AI Security Engineer
+
+LinkedIn(https://www.linkedin.com/in/ilija-popadic-27a4a72b3/)
+
+YouTube Demo [<!-- replace # with your demo video URL -->](https://youtu.be/3lV3m6ewS8U?si=gZqBkL8hJMcDcbU9)
+
+
+
+---
